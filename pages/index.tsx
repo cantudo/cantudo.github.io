@@ -7,10 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* <div className={styles.pageBorder}></div> */}
-      <div className={styles.basicGrid + " place-items-center\
-                                           w-12/12 h-12/12\
-                                           text-white text-4xl\
-                                           font-mono font-bold"}>
+      <div className={`${styles.basicGrid} place-items-center w-12/12 h-12/12 text-white text-4xl font-mono font-bold`}>
         <a className="hover:underline" href="/stquake">stquake</a>
         <a className="hover:underline" href="/gru">gru</a>
       </div>
